@@ -1,0 +1,269 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FCEBB6;
+    background-image: url(image/background.gif);
+    color: #221811;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+    background-color: #D2B48C;
+    height: 150px;
+    background-image: url(image/javajamlogo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: block;
+}
+
+h1 {
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #FEF6C2;
+}
+
+nav a:visited {
+    color: #D2B48C;
+}
+
+nav a:hover {
+    color: #CC9933;
+}
+
+nav {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+    width: 200px;
+    display: block;
+}
+
+nav ul {
+    padding-inline-end: 40px;    
+}
+
+footer {
+    background-color: #D2B48C;
+    font-size: 0.60em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top:  2px solid #221811;
+    display: block;
+}
+
+h4 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: 0.5em;
+    text-transform: uppercase;
+    border-bottom: 0.1em solid black;
+}
+
+main {
+    padding-bottom: 2em;
+    display: block;
+    margin-left: 200px ;
+    background-color: #FEF6C2;
+}
+
+form {
+    padding: 2em;
+}
+
+input,
+textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    border-spacing: 0;
+    background-color: #FFFFCC;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #D2B48E;
+}
+
+td {
+    padding: 10px;
+}
+
+th {
+    padding: 10px;
+}
+
+main h2,
+main h3,
+main h4,
+main p,
+main div,
+main ul,
+main dl { 
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+#wrapper {
+    background-color: #231814;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 10px 10px #00000069;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#heroroad {
+    background-image: url(image/heroroad.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    aspect-ratio: 1000 / 250; 
+    width: 100%; 
+}
+
+#heromugs {
+    background-image: url(image/heromugs.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    aspect-ratio: 1000 / 250; 
+    width: 100%; 
+}
+
+#heroguitar {
+    background-image: url(image/heroguitar.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    aspect-ratio: 1000 / 250; 
+    width: 100%; 
+}
+
+#mySubmit {
+    margin-left: 9.5em;
+}
+
+#herojobs {
+    height: 250px;
+    background-image: url(image/herojobs.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.floatleft {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+
+@media only screen and (max-width: 928px) {
+    header {
+        background-image: url(image/javajammini.jpg);
+        height: fit-content; 
+        padding-top:1em;
+    }
+
+    h1 {
+        font-size:2em;
+        text-align:center; 
+        padding:0px; 
+    }
+
+    nav {
+        background-color: #221811;
+        height: fit-content;
+        float: none;
+        width: 100%;
+        display: inline-block;
+        padding-top: 0px; 
+        font-size: 1.3em; 
+    }
+
+    nav a {
+        display: inline-block;
+        padding: .5em; 
+        width: auto; 
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    main {
+        padding-top: 0px;
+        margin: 0px;
+    }
+
+    h2 {
+        padding-top:.5em;
+        padding-right:0px; 
+        padding-bottom:0px; 
+        padding-left:.5em; 
+        margin-right:.5em; 
+    }
+
+    .floatleft {
+        padding-left:.5em;
+        padding-right:.5em; 
+    }
+
+    #wrapper {
+        width:auto;
+        min-width: 0px; 
+        margin-right: 8px; 
+        padding: 0px; 
+    }
+
+    /* #heroroad {
+        background-image: none;
+        height:auto; 
+    }
+
+    #heromugs {
+        background-image: none;
+        height:auto; 
+    }
+
+    #heroguitar {
+        background-image: none;
+        height:auto; 
+    }
+
+    #herojobs {
+        display: none; 
+    } */
+}
+    
